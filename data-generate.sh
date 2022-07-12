@@ -1,9 +1,8 @@
 #!/bin/bash
 
-#python3 generate.py /home/gb/yejunjie/mmt-coder/data-bin/en-fr/test2016 \
-python3 generate.py /home/gb/yejunjie/mmt-mask/data-bin-2/en-cs/test2016 \
+python3 generate.py data-bin/en-fr/test2016 \
 				--path results/mmtimg/model.pt \
-				--source-lang en --target-lang cs \
+				--source-lang en --target-lang fr \
 				--beam 5 \
 				--num-workers 12 \
 				--batch-size 128 \
